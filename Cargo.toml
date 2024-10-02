@@ -1,0 +1,12 @@
+[package]
+name = "ffi-example"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tim Janus"]
+description = "This is a toy example for the Rust and C++ Dragon book club Meeting for Chapter 11 - Foreign Function Interfaces of the book Rust for Rustaceans by Jon Gjengset"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+
+[build-dependencies]
+cc = "1.0.46"

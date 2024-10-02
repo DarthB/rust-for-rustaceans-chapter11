@@ -1,0 +1,47 @@
+/* @theme janus-it */
+
+@import 'default';
+
+section {
+  padding: 128px;
+  background: #E58339;
+  font-family: Open Sans,Menlo,Consolas,monaco,monospace;
+  width: 1920px;
+  height: 1080px;
+  justify-content: flex-start;
+}
+
+h1 {
+    font-family: Bebas Neue;
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 64px;
+    font-family: Bebas Neue;
+}
+
+a {
+    color: #fff;
+    text-decoration:  underline;
+}
+
+a:hover {
+    color: #00A;
+}
+
+/* Styling page number */
+section::after {
+    font-size: 32px;
+    color: #fff;
+}
+
+header {
+    top: 30px;
+    color: #fff;
+}
+  
+footer {
+    bottom: 30px;
+    color: #fff;
+}
